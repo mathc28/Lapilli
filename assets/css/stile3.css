@@ -123,6 +123,7 @@ section{
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    width: 600px;
 }
 
 .bottle-container img {
