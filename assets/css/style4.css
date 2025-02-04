@@ -81,7 +81,7 @@ section{
 }
 /* main */
 /* Structure principale */
-.where-main {
+.where-page {
     max-width: 1400px;
     margin: 2rem auto;
     padding: 0 1rem;
@@ -117,13 +117,6 @@ section{
 .hero-section p {
     font-size: 1.1rem;
     color: #666;
-}
-
-/* Main - Page Nous trouver */
-.where-page {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
 }
 
 /* Section Événements */

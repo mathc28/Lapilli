@@ -24,6 +24,7 @@ section{
     background-attachment: fixed; /* Effet parallaxe optionnel */
     overflow: hidden;
 }
+
 /* Header épuré */
 .header {
     background: #fff;
@@ -85,9 +86,15 @@ section{
 
 /* Page Contact */
 
+.contact-main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
 .hero-section {
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     margin-bottom: 4rem;
 }
 
@@ -103,11 +110,7 @@ section{
     color: #666;
 }
 
-.contact-main {
-    max-width: 1200px;
-    margin: 4rem auto;
-    padding: 0 2rem;
-}
+/* Formulaire */
 
 .contact-container {
     display: grid;
@@ -116,7 +119,6 @@ section{
     margin-top: 3rem;
 }
 
-/* Formulaire */
 .contact-form {
     background: #fff;
     padding: 2rem;

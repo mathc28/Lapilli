@@ -22,70 +22,68 @@
             </ul>
         </nav>
     </header>
-        <main class="contact-main">
-            <!-- Section Top -->
-            <section class="hero-section">
-                <div class="hero-content">
-                    <h1>Contactez-nous</h1>
-                    <p>Une question, une commande ou simplement envie d'échanger ? Écrivez-nous.</p>
+    <main class="contact-main">
+        <!-- Section Top -->
+        <section class="hero-section">
+                <h1>Contactez-nous</h1>
+                <p>Une question, une commande ou simplement envie d'échanger ? Écrivez-nous.</p>
+        </section>
+        
+        <!-- Contenu principal -->
+        <div class="contact-container">
+            <!-- Formulaire -->
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" required>
                 </div>
-            </section>
         
-            <!-- Contenu principal -->
-            <div class="contact-container">
-                <!-- Formulaire -->
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label for="name">Nom</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
         
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <select id="subject" name="subject">
+                        <option value="commande">Commande</option>
+                        <option value="info">Information</option>
+                        <option value="presse">Presse</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
         
-                    <div class="form-group">
-                        <label for="subject">Sujet</label>
-                        <select id="subject" name="subject">
-                            <option value="commande">Commande</option>
-                            <option value="info">Information</option>
-                            <option value="presse">Presse</option>
-                            <option value="autre">Autre</option>
-                        </select>
-                    </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
         
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="6" required></textarea>
-                    </div>
+                <button type="submit" class="btn">Envoyer le message</button>
+            </form>
         
-                    <button type="submit" class="btn">Envoyer le message</button>
-                </form>
+            <!-- Informations de contact -->
+            <div class="contact-infos">
+                <div class="info-block">
+                    <h3>Domaine Lapilli</h3>
+                    <p>Route des Volcans<br>63114 Authezat<br>Auvergne, France</p>
+                </div>
         
-                <!-- Informations de contact -->
-                <div class="contact-infos">
-                    <div class="info-block">
-                        <h3>Domaine Lapilli</h3>
-                        <p>Route des Volcans<br>63114 Authezat<br>Auvergne, France</p>
-                    </div>
+                <div class="info-block">
+                    <h3>Nous appeler</h3>
+                    <p><a href="tel:+33612345678">+33 6 68 50 40 10</a></p>
+                    <p><a href="tel:+33612345678">+33 7 49 14 21 03</a></p>
+                    <p>Lun-Ven : 9h-12h / 14h-17h</p>
+                </div>
         
-                    <div class="info-block">
-                        <h3>Nous appeler</h3>
-                        <p><a href="tel:+33612345678">+33 6 68 50 40 10</a></p>
-                        <p><a href="tel:+33612345678">+33 7 49 14 21 03</a></p>
-                        <p>Lun-Ven : 9h-12h / 14h-17h</p>
-                    </div>
-        
-                    <div class="info-block">
-                        <h3>Suivez-nos aventures sur Instagram ! </h3>
-                        <div class="social-links">
-                            <a href="https://www.instagram.com/domaine_lapilli/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
-                        </div>
+                <div class="info-block">
+                    <h3>Suivez-nos aventures sur Instagram ! </h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/domaine_lapilli/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-        </main>
+        </div>
+    </main>
     <footer class="footer">
         <img src="/assets/images/logos/LOGO.png" alt="Logo Domaine Lapilli" class="footer-logo">
         <p>Domaine Lapilli © 2025 - All rights reserved<br>
