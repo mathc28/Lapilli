@@ -88,6 +88,12 @@ section{
     padding: 2rem 1rem;
 }
 
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hero-section {
     text-align: center;
     padding: 4rem 1rem;
@@ -99,11 +105,19 @@ section{
     font-size: 2.5rem;
     margin-bottom: 1rem;
     color: #2c2c2c;
+    background: rgba(255, 255, 255, 0.7); /* Fond blanc à 70% d'opacité */
+    padding: 10px 20px; /* Espacement autour du texte */
+    border-radius: 5px; /* Bords arrondis pour un effet plus doux */
+    width: fit-content;
+      
 }
 
 .hero-section p {
     font-size: 1.1rem;
     color: #666;
+    background: rgba(255, 255, 255, 0.7); /* Fond blanc à 70% d'opacité */
+    padding: 10px 20px; /* Espacement autour du texte */
+    border-radius: 5px; /* Bords arrondis pour un effet plus doux */
 }
 
 /* Carte cuvée */

@@ -44,7 +44,7 @@ body {
     align-items: center;
     list-style: none;
     max-width: 1200px;
-    margin: 30px auto;
+    margin:1rem auto;
 }
 
 .nav a {
@@ -59,7 +59,7 @@ body {
 }
 
 .logo {
-    width: 60px;
+    width: 80px;
     height: auto;
 }
 

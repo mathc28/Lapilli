@@ -41,6 +41,10 @@ section{
     list-style: none;
 }
 
+.nav a:hover {
+    opacity: 0.7;
+}
+
 .nav-logo .logo {
     width: 80px;
     height: auto;
@@ -105,6 +109,10 @@ section{
     background-position: center right 35%;
     background-attachment: fixed; /* Effet parallaxe optionnel */
     overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-section h1 {
@@ -112,11 +120,21 @@ section{
     font-size: 2.5rem;
     margin-bottom: 1rem;
     color: #2c2c2c;
+
+    background: rgba(255, 255, 255, 0.7); /* Fond blanc à 70% d'opacité */
+    padding: 10px 20px; /* Espacement autour du texte */
+    border-radius: 5px; /* Bords arrondis pour un effet plus doux */
+    width: fit-content;
 }
 
 .hero-section p {
     font-size: 1.1rem;
     color: #666;
+
+    background: rgba(255, 255, 255, 0.7); /* Fond blanc à 70% d'opacité */
+    padding: 10px 20px; /* Espacement autour du texte */
+    border-radius: 5px; /* Bords arrondis pour un effet plus doux */
+    width: fit-content;
 }
 
 /* Section Événements */
@@ -202,6 +220,28 @@ section{
     font-size: 0.95rem;
     color: #666;
     margin-bottom: 0.5rem;
+}
+.lgn-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    border: 1px solid #333;
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: center;
+}
+
+.btn:hover {
+    background: #333;
+    color: #fff;
 }
 
 /* Section Carte */

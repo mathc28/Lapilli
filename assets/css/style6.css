@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header épuré */
+.header {
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.nav a:hover {
+    opacity: 0.7;
+}
+
+.nav-logo .logo {
+    width: 80px;
+    height: auto;
+    transition: opacity 0.3s;
+}
+
+.nav-logo:hover .logo {
+    opacity: 0.8;
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+.nav-item a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+.nav-item a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #333;
+    transition: width 0.3s ease;
+}
+
+.nav-item a:hover::after {
+    width: 100%;
+}
+
+/* Main */
+
+.login_section {
+	width: 50%;
+	margin: auto;
+	padding: 160px 0 350px 0;
+}
+  
+.login_section h2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+  
+#login_form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 37px;
+}
+  
+#login_form input {
+	height: 51px;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+	border: none;
+	margin-top: 7px;
+}
+  
+#login_form label {
+	padding-top: 30px;
+}
+  
+#mdp {
+	margin-bottom: 37px;
+}
+
+
+.submit {
+	font-family: Syne;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: center;
+	margin-top: 30px;
+	cursor: pointer;
+	color: #1D6154;
+}
+
+.submit:hover{
+	background-color: #053127;
+}
+
+
+.lostmdp {
+	text-decoration: underline;
+	text-align: center;
+	cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    border-top: 1px solid #eee;
+}
+
+.footer-logo {
+    width: 80px;
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+}
+
+.social-link {
+    display: block;
+    margin-top: 1rem;
+    color: #666;
+    text-decoration: none;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+}
