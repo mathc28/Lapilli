@@ -9,20 +9,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/css/stile2.css">
+    <link rel="stylesheet" href="/assets/css/style2.css">
 </head>
 <body>  
     <header class="header">
         <nav>
-            <ul class="nav">  
-                <li class="nav-logo"> 
-                    <a href="/index.html">
-                        <img src="/assets/images/logos/LOGO.png" alt="Logo Domaine Lapilli" class="logo">
-                    </a>         
-                </li> 
-                <li class="nav-item"><a href="#">Qui sommes-nous ?</a></li>
+            <div class="logo">
+                <a href="/index.html">
+                    <img src="/assets/images/logos/LOGO.png" alt="Logo Domaine Lapilli" class="logo">
+                </a>                
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">  
+                <li class="nav-item"><a href="#">Le domaine</a></li>
                 <li class="nav-item"><a href="/pages/cuvees.html">Les cuvées</a></li>
-                <li class="nav-item"><a href="/pages/findus.html"">Nous trouver</a></li>
+                <li class="nav-item"><a href="/pages/findus.html">Nous retrouver</a></li>
                 <li class="nav-item"><a href="/pages/contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -30,7 +32,7 @@
 
     <!-- Le reste du main reste identique -->
     <main>
-        <main>
+        
             <!-- Section Top -->
             <section class="intro-section">
                 <div class="grid-container">
@@ -87,7 +89,7 @@
                     </div>
                 </div>
             </section>
-        </main>
+        
     </main>
 
     <footer class="footer">
