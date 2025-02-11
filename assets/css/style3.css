@@ -272,7 +272,7 @@ nav {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
     .cuvee-card {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -307,7 +307,7 @@ nav {
 
 /* Media Queries pour les mobiles */
 /* Écrans de taille moyenne (tablettes et mobiles) */
-@media (max-width: 1225px) {
+@media (max-width: 1224px) {
 
     .cuvees-main {
         padding: 0;
