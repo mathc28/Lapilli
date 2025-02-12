@@ -65,7 +65,7 @@ nav {
     font-size: 17px;
     font-weight: 500;
     transition: 0.2s all ease-in-out;
-    color: #fff;
+    color: #333;
 }
   
   .menu:hover a {
@@ -74,7 +74,7 @@ nav {
   
 .menu a:hover {
     opacity: 1;
-    color: #fff;
+    color: #333;
 }
   
 .menu-icon {
@@ -92,8 +92,13 @@ nav {
 .hero {
     text-align:end;
     padding: 8rem 8rem;
-    color: #fafafa;
+    color: #333;
 
+}
+
+.hero img{
+    width: 200px;
+    height: auto;
 }
 
 .hero h1 {
