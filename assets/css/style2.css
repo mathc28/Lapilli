@@ -21,8 +21,7 @@ body {
 section{
     background-image: url("/assets/images/DALL·E\ 2025-01-30\ 13.30.10\ -\ Minimalist\ black\ and\ white\ topographic\ map\ of\ Auvergne\,\ France\,\ without\ any\ text.\ Contour\ lines\ represent\ elevation\ changes\,\ covering\ the\ entire\ image.jpeg");
     background-size: cover;
-    background-position: center;
-    background-attachment:scroll;
+    background-position: center right 35%;
     overflow: hidden;
 }
 
@@ -202,6 +201,13 @@ nav {
 
 
 /* Responsive */
+@media (max-width: 1024px){
+    section{
+        background-position: bottom center;
+        background-attachment:scroll;
+    }
+}
+
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: 1fr;
