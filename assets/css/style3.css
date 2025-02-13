@@ -270,6 +270,10 @@ nav {
         font-size: 28px;
         cursor: pointer;
     }
+
+    .hero-section{
+        margin-bottom: -2rem;
+    }
 }
 
 @media (max-width: 1080px) {
@@ -389,6 +393,11 @@ nav {
 
     .bottle-container img {
         max-height: 150px;
+    }
+
+    section {
+        background-position: bottom center;
+        background-attachment:scroll;
     }
 }
 
