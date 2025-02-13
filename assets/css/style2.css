@@ -201,13 +201,6 @@ nav {
 
 
 /* Responsive */
-@media only screen and (max-width: 450px) {
-    section {
-        background-position: bottom center;
-        background-attachment:scroll;
-    }
-    
-}
 
 @media (max-width: 768px) {
     .grid-container {
