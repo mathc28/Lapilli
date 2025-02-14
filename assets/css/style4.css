@@ -321,13 +321,25 @@ nav {
 
 /* Responsive */
 
+
 @media (max-width: 1024px) {
+    section {
+        background-position: bottom center;
+        background-attachment:scroll;
+    }
+
     .map-container{
         margin: 0 100px;
     }
 
 }
 @media (max-width: 768px) {
+
+    .where-page{
+        padding: 0;
+        margin: 0;
+    }
+
     .where-main {
         padding: 0 1rem;
         margin: 2rem auto;
@@ -350,6 +362,15 @@ nav {
     .map-container {
         height: 400px;
         margin: 0 50px;
+    }
+
+    .map-section{
+        margin-bottom: 1rem;
+    }
+
+    .events-section{
+        margin-top: 3rem;
+        padding: 0 1rem;
     }
 }
 
@@ -419,6 +440,10 @@ nav {
         font-size: 28px;
         cursor: pointer;
     }
+
+    .hero-section{
+        margin-bottom: -2rem;
+    }
 }
 
 @media (max-width: 670px) {
@@ -446,6 +471,7 @@ nav {
         margin: 3rem 0;
     }
 }
+
 @media (max-width: 600px) {
     section {
         background-position: bottom center;
