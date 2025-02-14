@@ -193,7 +193,8 @@ nav {
     .menu {
         color: #333;
       flex-direction: column;
-      background-color:transparent;
+      background-color:white;
+      opacity: 0.6;
       align-items: center;
       position: absolute;
       top: 100px;
@@ -216,13 +217,13 @@ nav {
   
     .menu-icon {
       display: block;
-      color: #fff;
+      color: black;
       font-size: 28px;
       cursor: pointer;
     }
 
     .hero{
-        padding: 12rem 4rem;
+        padding: 4rem 4rem;
     }
 
     .hero img{
