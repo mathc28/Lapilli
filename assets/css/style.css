@@ -68,9 +68,9 @@ nav {
     color: #333;
 }
   
-  .menu:hover a {
+.menu:hover a {
     opacity: 0.4;
-  }
+}
   
 .menu a:hover {
     opacity: 1;

@@ -236,81 +236,7 @@ nav {
     height: 50px;
 }
 
-/* Écrans de taille moyenne (tablettes) */
-
-@media only screen and (max-width: 768px) {
-    .menu {
-        color: #333;
-        flex-direction: column;
-        background-color:white;
-        opacity: 0.9;
-        align-items: center;
-        position: absolute;
-        top: 100px;
-        left: 0;
-        width: 100%;
-        z-index: 1;
-        transform: scale(1, 0);
-        transform-origin: top;
-        transition: transform 0.3s ease-in-out;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    }
-    
-    .menu a {
-        margin-left: 12px;
-    }
-    
-    .menu li {
-        margin-bottom: 10px;
-    }
-    
-    .menu-icon {
-        display: block;
-        color: black;
-        font-size: 28px;
-        cursor: pointer;
-    }
-
-    .hero-section{
-        margin-bottom: -2rem;
-    }
-}
-
-@media (max-width: 1080px) {
-    .cuvee-card {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .bottle-container {
-        width: 100%;
-        padding: 1rem;
-    }
-
-    .bottle-container img {
-        max-height: 300px;
-    }
-
-    .cuvee-details {
-        padding: 0;
-    }
-
-    .cuvee-details h2 {
-        font-size: 1.6rem;
-    }
-
-    .specs-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 1.5rem;
-    }
-
-    .cuvee-label {
-        max-width: 120px;
-    }
-}
-
-/* Media Queries pour les mobiles */
-/* Écrans de taille moyenne (tablettes et mobiles) */
+/* Media querries */
 @media (max-width: 1224px) {
 
     .cuvees-main {
@@ -381,6 +307,83 @@ nav {
     }
 }
 
+@media (max-width: 1080px) {
+    .cuvee-card {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .bottle-container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .bottle-container img {
+        max-height: 300px;
+    }
+
+    .cuvee-details {
+        padding: 0;
+    }
+
+    .cuvee-details h2 {
+        font-size: 1.6rem;
+    }
+
+    .specs-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .cuvee-label {
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    section {
+        background-position: bottom center;
+        background-attachment:scroll;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .menu {
+        color: #333;
+        flex-direction: column;
+        background-color:white;
+        opacity: 0.9;
+        align-items: center;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        transform: scale(1, 0);
+        transform-origin: top;
+        transition: transform 0.3s ease-in-out;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+    
+    .menu a {
+        margin-left: 12px;
+    }
+    
+    .menu li {
+        margin-bottom: 10px;
+    }
+    
+    .menu-icon {
+        display: block;
+        color: black;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .hero-section{
+        margin-bottom: -2rem;
+    }
+}
+
 @media (max-width: 600px) {
     .specs-grid {
         display: flex;
@@ -394,17 +397,4 @@ nav {
     .bottle-container img {
         max-height: 150px;
     }
-
-    section {
-        background-position: bottom center;
-        background-attachment:scroll;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    section {
-        background-position: bottom center;
-        background-attachment:scroll;
-    }
-    
 }
