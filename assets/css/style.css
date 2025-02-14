@@ -222,8 +222,12 @@ nav {
     }
 
     .hero{
-        text-align:start;
         padding: 12rem 4rem;
+    }
+
+    .hero img{
+        width: 100px;
+        height: auto;
     }
 
     /* main */
