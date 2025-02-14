@@ -366,3 +366,10 @@ nav {
         cursor: pointer;
     }
 }
+
+@media (max-width: 600px) {
+    section {
+        background-position: bottom center;
+        background-attachment:scroll;
+    }
+}
