@@ -65,8 +65,8 @@ nav {
 .menu a {
     display: block;
     padding: 0.5rem 2rem;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
     transition: 0.2s all ease-in-out;
     color: black;
     font-family: 'Roboto', sans-serif;
