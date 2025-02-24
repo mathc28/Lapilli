@@ -22,7 +22,6 @@ section{
     background-image: url("/assets/images/DALL·E\ 2025-01-30\ 13.30.10\ -\ Minimalist\ black\ and\ white\ topographic\ map\ of\ Auvergne\,\ France\,\ without\ any\ text.\ Contour\ lines\ represent\ elevation\ changes\,\ covering\ the\ entire\ image.jpeg");
     background-size: cover;
     background-position: center right 35%;
-    background-attachment: fixed; /* Effet parallaxe optionnel */
     overflow: hidden;
 }
 
@@ -246,7 +245,7 @@ nav {
     .hero-section{
         margin-bottom: -2rem;
     }
-    
+
     .cuvee-card {
         padding: 1.5rem;
         margin: 2rem 0;
