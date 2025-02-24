@@ -238,11 +238,6 @@ nav {
 
 /* Media querries */
 @media (max-width: 1224px) {
-
-    .cuvees-main {
-        padding: 0;
-    }
-
     .cuvee-card {
         padding: 1.5rem;
         margin: 2rem 0;
@@ -345,6 +340,14 @@ nav {
         background-position: bottom center;
         background-attachment:scroll;
     }
+
+    .cuvees-main {
+        padding: 0;
+    }
+
+    .hero-section{
+        margin-bottom: -2rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -378,10 +381,6 @@ nav {
         color: black;
         font-size: 28px;
         cursor: pointer;
-    }
-
-    .hero-section{
-        margin-bottom: -2rem;
     }
 }
 
