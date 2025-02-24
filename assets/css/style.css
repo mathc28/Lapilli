@@ -26,9 +26,7 @@ body {
     background-image: url('/assets/images/IMG_2554.webp'); /* Chemin de votre image */
     background-size: cover;
     background-position: center 35%;
-    background-attachment: fixed; /* Effet parallaxe optionnel */
     overflow: hidden;
-
 }
 
 .logo {
