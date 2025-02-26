@@ -318,10 +318,6 @@ nav {
     .where-page{
         padding: 0;
     }
-
-    .hero-section{
-        margin-bottom: -2rem;
-    }
 }
 
 @media (max-width: 1024px) {
@@ -376,7 +372,6 @@ nav {
     }
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: 1fr;
@@ -455,6 +450,13 @@ nav {
     }
 }
 
+@media (max-width: 600px) {
+    section {
+        background-position: bottom center;
+        background-attachment:scroll;
+    }
+}
+
 @media (max-width: 480px) {
     .event-info {
         padding: 1.5rem;
@@ -471,12 +473,5 @@ nav {
 
     .map-section{
         margin: 3rem 0;
-    }
-}
-
-@media (max-width: 600px) {
-    section {
-        background-position: bottom center;
-        background-attachment:scroll;
     }
 }
