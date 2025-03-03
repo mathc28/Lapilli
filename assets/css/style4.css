@@ -475,7 +475,7 @@ nav {
 
     .map-container {
         height: 250px;
-        margin: 0;
+        margin: 0 1rem;
     }
 
     .map-section{
