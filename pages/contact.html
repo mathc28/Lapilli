@@ -12,12 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            emailjs.init("uJvYxBHUCH9pBhh6W"); // Remplace avec ton User ID EmailJS
+            emailjs.init("1S0U_2Oa75rz1Ecab"); // Remplace avec ton User ID EmailJS
 
             document.querySelector(".contact-form").addEventListener("submit", function(event) {
             event.preventDefault();
 
-            emailjs.sendForm("service_3vsnj8l", "template_xt60d6o", this)
+            emailjs.sendForm("service_87zpmup", "template_wn31g7m", this)
                 .then(function() {
                 alert("E-mail envoyé avec succès !");
                 document.querySelector(".contact-form").reset(); // Réinitialise le formulaire après envoi
