@@ -160,7 +160,10 @@ nav {
 .text-sign{
     text-align: end;
     font-style: italic;
- 
+}
+
+.link{
+    color: #1E90FF;
 }
 
 /* Galerie */
