@@ -235,10 +235,7 @@ nav {
 }
 
 .social-link {
-    display: block;
-    margin-top: 1rem;
-    color: #666;
-    text-decoration: none;
+    margin-top: 8px; 
 }
 
 .flex{
