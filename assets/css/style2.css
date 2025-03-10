@@ -163,7 +163,8 @@ nav {
 }
 
 .link{
-    color: #1E90FF;
+    color: black;
+    text-decoration: underline;
 }
 
 /* Galerie */
