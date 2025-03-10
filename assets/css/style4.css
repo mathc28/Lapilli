@@ -318,6 +318,10 @@ nav {
     height: 50px;
 }
 
+.social2{
+    width: 60px;
+}
+
 /* Responsive */
 
 @media (max-width: 1224px) {

@@ -242,6 +242,10 @@ nav {
     height: 50px;
 }
 
+.social2{
+    width: 60px;
+}
+
 /* Media querries */
 @media (max-width: 1224px) {
 
