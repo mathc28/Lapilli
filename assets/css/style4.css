@@ -114,7 +114,7 @@ nav {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .hero-section h1 {
@@ -123,7 +123,6 @@ nav {
     margin-bottom: 1rem;
     color: #2c2c2c;
 
-    background: rgba(255, 255, 255, 0.7); /* Fond blanc à 70% d'opacité */
     padding: 10px 20px; /* Espacement autour du texte */
     border-radius: 5px; /* Bords arrondis pour un effet plus doux */
     width: fit-content;
@@ -448,6 +447,8 @@ nav {
 
     .hero-section{
         margin-bottom: -2rem;
+        background: rgba(255, 255, 255, 0.7); /* Fond blanc à 70% d'opacité */;
+        font-size: 2rem;
     }
 }
 
