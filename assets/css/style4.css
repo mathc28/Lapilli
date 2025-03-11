@@ -445,7 +445,7 @@ nav {
         cursor: pointer;
     }
 
-    .hero-section{
+    .hero-section h1{
         margin-bottom: -2rem;
         background: rgba(255, 255, 255, 0.7); /* Fond blanc à 70% d'opacité */;
         font-size: 2rem;
