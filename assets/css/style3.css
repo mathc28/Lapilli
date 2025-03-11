@@ -104,7 +104,7 @@ nav {
 .hero-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .hero-section {
@@ -118,19 +118,9 @@ nav {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     color: #2c2c2c;
-    background: rgba(255, 255, 255, 0.7); /* Fond blanc à 70% d'opacité */
     padding: 10px 20px; /* Espacement autour du texte */
     border-radius: 5px; /* Bords arrondis pour un effet plus doux */
     width: fit-content;
-      
-}
-
-.hero-section p {
-    font-size: 1.1rem;
-    color: #666;
-    background: rgba(255, 255, 255, 0.7); /* Fond blanc à 70% d'opacité */
-    padding: 10px 20px; /* Espacement autour du texte */
-    border-radius: 5px; /* Bords arrondis pour un effet plus doux */
 }
 
 /* Carte cuvée */
@@ -382,6 +372,11 @@ nav {
         color: black;
         font-size: 28px;
         cursor: pointer;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+        background: rgba(255, 255, 255, 0.7);
     }
 }
 
