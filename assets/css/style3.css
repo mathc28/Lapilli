@@ -200,6 +200,15 @@ nav {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+#last{
+    margin-bottom: 0;
+}
+
+.credit {
+    text-align: end;
+    padding: 1.5rem;
+}
+
 /* Footer */
 .footer {
     text-align: center;
