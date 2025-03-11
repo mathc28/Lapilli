@@ -209,6 +209,11 @@ nav {
     padding: 1.5rem;
 }
 
+.credit a{
+    color: black;
+    text-decoration: underline;
+}
+
 /* Footer */
 .footer {
     text-align: center;
