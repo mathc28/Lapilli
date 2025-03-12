@@ -22,7 +22,6 @@ section{
     background-image: url("/assets/images/vignes/IMG_9304.webp");
     background-size: cover;
     background-position: center 29%;
-    overflow: hidden;
 }
 
 /* Header épuré */
@@ -147,10 +146,6 @@ nav {
     max-height: 400px;
     width: auto;
     transition: transform 0.3s ease;
-}
-
-.bottle-container:hover img {
-    transform: translateY(-10px);
 }
 
 .cuvee-details {
