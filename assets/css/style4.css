@@ -94,27 +94,18 @@ nav {
     padding: 0 1rem;
 }
 
-.section-title {
-    font-weight: 400;
-    font-size: 2rem;
-    text-align: center;
-    margin: 3rem 0;
-    color: #2d2d2d;
-}
-
-.hero-section {
-    text-align: center;
-    padding: 4rem 1rem;
-    margin-bottom: 4rem;
-
-    background-image: url("/assets/images/vignes/IMG_9304.webp");
-    background-size: cover;
-    background-position: center 29%;
-    overflow: hidden;
-
+.hero-content{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    padding: 4rem 1rem;
+    margin-bottom: 4rem;
+    overflow: hidden;
 }
 
 .hero-section h1 {
@@ -122,20 +113,20 @@ nav {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     color: #2c2c2c;
-
     padding: 10px 20px; /* Espacement autour du texte */
     border-radius: 5px; /* Bords arrondis pour un effet plus doux */
     width: fit-content;
 }
 
-.hero-section p {
-    font-size: 1.1rem;
-    color: #666;
-
-    background: rgba(255, 255, 255, 0.7); /* Fond blanc à 70% d'opacité */
-    padding: 10px 20px; /* Espacement autour du texte */
-    border-radius: 5px; /* Bords arrondis pour un effet plus doux */
-    width: fit-content;
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    object-position: center 28%; /* Décale l'image pour afficher la bonne partie */
 }
 
 /* Section Événements */
