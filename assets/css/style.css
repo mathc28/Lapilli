@@ -106,6 +106,10 @@ nav {
     letter-spacing: -1px;
 }
 
+.hero p{
+    margin-right: 10px;
+}
+
 /* Sections */
 .section {
     padding: 4rem 0;
