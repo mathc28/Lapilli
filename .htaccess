@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Redirige /pages/xxx.html vers /xxx
+RewriteCond %{THE_REQUEST} /pages/(.*)\.html [NC]
+RewriteRule ^pages/(.*)\.html$ /$1 [R=301,L]
+
+# Permet d'accéder aux fichiers sans taper .html
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
