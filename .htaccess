@@ -1,5 +1,12 @@
 RewriteEngine On
+
+# Si l'URL demandée n'est pas un répertoire
 RewriteCond %{REQUEST_FILENAME} !-d
+# Et si un fichier .html correspondant existe
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
-RewriteRule ^pages/(.*)$ /$1 [R=301,L]
+# Alors réécrire l'URL en ajoutant .html en interne (sans le montrer à l'utilisateur)
+RewriteRule ^([^/.]+)$ $1.html [NC,L]
+
+# Redirection 301 des anciennes URLs avec .html vers l'URL sans .html
+RewriteCond %{THE_REQUEST} \s/([^.]+)\.html [NC]
+RewriteRule ^ %1 [R=301,L]
