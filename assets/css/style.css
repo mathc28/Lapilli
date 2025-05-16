@@ -171,6 +171,10 @@ nav {
     border-top: 1px solid #eee;
 }
 
+.footer a {
+    color: black;
+}
+
 .footer-logo {
     width: 80px;
     margin-bottom: 1.5rem;
